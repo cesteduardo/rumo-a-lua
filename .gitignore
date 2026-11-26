@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.backup-*/
+.superpowers/
+godot/
+testes/saida*/
+/*.png

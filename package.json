@@ -1,0 +1,39 @@
+{
+  "name": "rumo-a-lua",
+  "productName": "Rumo à Lua",
+  "version": "0.9.0",
+  "description": "Uma capivara com emprego, um foguete de sucata e 384.400 km.",
+  "main": "ferramentas/janela.cjs",
+  "scripts": {
+    "jogar": "electron .",
+    "testar": "node testes/nucleo.test.js && node testes/financas.test.js && node testes/economia.js",
+    "empacotar": "electron-builder --linux dir --win dir"
+  },
+  "build": {
+    "appId": "com.grbrands.rumoalua",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "estilo.css",
+      "js/**",
+      "arte/fundos/**",
+      "arte/sprites/**",
+      "arte/musica/**",
+      "arte/fontes/**",
+      "ferramentas/janela.cjs"
+    ],
+    "linux": {
+      "target": "dir",
+      "category": "Game"
+    },
+    "win": {
+      "target": "dir"
+    }
+  },
+  "devDependencies": {
+    "electron": "^45.2.1",
+    "electron-builder": "^26.18.0"
+  }
+}

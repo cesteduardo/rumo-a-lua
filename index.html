@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rumo à Lua</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <filter id="boil0"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter>
+    <filter id="boil1"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="11"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter>
+    <filter id="boil2"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="27"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter>
+  </svg>
+  <div id="tela"></div>
+  <div id="iris" aria-hidden="true"></div>
+  <div id="carregando">
+    <p>Misturando as tintas</p>
+    <div class="carregando-barra"><i id="progresso"></i></div>
+  </div>
+  <script src="js/dados.js"></script>
+  <script src="js/nucleo.js"></script>
+  <script src="js/financas.js"></script>
+  <script src="js/pintura.js"></script>
+  <script src="js/cena-gpu.js"></script>
+  <script src="js/desenho.js"></script>
+  <script src="js/personagens.js"></script>
+  <script src="js/efeitos.js"></script>
+  <script src="js/objetos.js"></script>
+  <script src="js/som.js"></script>
+  <script src="js/voo.js"></script>
+  <script src="js/telas.js"></script>
+  <script src="js/telas-financas.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

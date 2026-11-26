@@ -1,0 +1,167 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Conselho Rumo à Lua</title><style>
+:root{--tx:#1f2328;--fr:#5b6470;--li:#dfe3e8;--ac:#b4472e;--fd:#fff;--su:#f6f7f8}
+*{box-sizing:border-box}body{margin:0;background:var(--fd);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:880px;margin:auto;padding:40px 16px 64px}h1{font-size:30px;line-height:1.2;margin:0 0 8px}h2{font-size:20px;margin:32px 0 8px}
+.sub{color:var(--fr);margin:0 0 24px}.medida{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:24px 0}.medida div{border:1px solid var(--li);border-radius:8px;padding:14px}.medida b{display:block;font-size:26px;color:var(--ac);font-variant-numeric:tabular-nums}
+section{border-top:1px solid var(--li);margin-top:40px;padding-top:8px}.rola{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;margin:12px 0}th,td{border:1px solid var(--li);padding:8px;text-align:left;vertical-align:top}thead th{background:var(--su)}.grade th[scope=row]{background:var(--su);white-space:nowrap}
+details{border:1px solid var(--li);border-radius:8px;margin:8px 0;padding:0 14px}summary{cursor:pointer;font-weight:600;padding:12px 0}a{color:var(--ac)}code{background:var(--su);padding:1px 4px;border-radius:4px}footer{color:var(--fr);font-size:13px;margin-top:40px;border-top:1px solid var(--li);padding-top:12px}
+</style></head><body><main>
+<h1>Rumo à Lua: veredito do conselho</h1><p class="sub">O que pode ser melhorado em proporção, estilo, animações, progressão, economia e diálogos?</p>
+<div class="medida"><div><b>8,2x</b>aceleração real ao escolher 100x, medida no jogo</div><div><b>93%</b>do tempo acelerado preso em eventos</div><div><b>96,8x</b>a mesma aceleração sem os eventos</div></div>
+<section><h2>Onde o conselho concorda</h2>
+<ul>
+<li><strong>Ninguém testou o jogo de verdade.</strong> Ninguém jogou até o fim nem ouviu o som. As 10,3 horas até a Lua medem um robô, não uma pessoa.</li>
+<li><strong>O foguete some.</strong> Ele é o protagonista e a recompensa, mas vira um fio na oficina e no voo.</li>
+<li><strong>Os diálogos são o maior trunfo</strong>, e as falas de colisão mortas precisam sair.</li>
+<li><strong>Os voos 45 a 80 estão vazios.</strong> A velocidade trava em 180 km/s, e 35 voos só compram mais tanque.</li>
+<li><strong>Direitos comerciais da arte:</strong> confirme antes de gastar com arte nova.</li>
+</ul>
+<h2>Onde o conselho diverge</h2>
+<ul>
+<li><strong>Voo longo:</strong> Executor, Pessoa de fora e Primeiros princípios querem encurtá-lo. O Expansionista aceita o voo longo e o preenche. O Expansionista está certo: o voo de 30 a 60 minutos é decisão sua, e a 180 km/s a Lua leva 35,6 minutos de qualquer jeito.</li>
+<li><strong>Cortar ou expandir:</strong> Primeiros princípios corta banco, contratos e pesquisas. O Expansionista acrescenta trama e verbo novo. Faça o verbo novo e a trama, e só corte depois de ver gente jogando.</li>
+<li><strong>Plutão:</strong> o Executor congela, o Expansionista vira DLC gratuita. Congele agora. O caminho existe, porque a dobra já está no código.</li>
+</ul>
+<h2>O que só a revisão revelou</h2>
+<ul>
+<li><strong>Bug na aceleração, agora medido.</strong> No jogo de verdade, a 100x, o foguete fica 93% do tempo preso em eventos e a aceleração real é de 8,2x. Sem eventos, ela sobe para 96,8x.</li>
+<li><strong>Acelerar não tem jogo.</strong> O surgimento de objetos para e a renda fica passiva, então o voo alterna entre desviar e assistir. Os "45 minutos" da simulação dão 22,5 reais.</li>
+<li><strong>A simulação está mal calibrada.</strong> O comentário diz 30% e o código usa 0,55. Trate os números como aproximados.</li>
+<li><strong>Poses a 12 fps não são só código.</strong> Há 7 poses de capivara, 2 de tatu e 1 de pombo. Passos sobre figura única são apenas seno travado.</li>
+<li><strong>A arte atual será refeita</strong>, então ajustes por sprite podem se perder.</li>
+<li><strong>Faltam decisões de venda:</strong> preço, público, declaração de IA na Steam, e se a versão web grátis ajuda ou canibaliza as vendas.</li>
+</ul>
+<h2>A recomendação</h2>
+<ul>
+<li><strong>Proporção:</strong> crie uma tabela por altura-alvo, independente do sprite. Limite o dirigível, aumente o pombo, dê ao foguete largura mínima e faça a oficina preencher o painel. Teste se as peças de 400 px borram.</li>
+<li><strong>Estilo:</strong> mantenha a aquarela com traço grosso e revise os painéis escuros e a fonte pixelada. Antes de qualquer lote, você aprova uma folha de prova.</li>
+<li><strong>Animações:</strong> corrija o capacete e o tatu sem capacete. Teste os 12 fps só na capivara, a única com poses suficientes. Asas e fumaça entram na lista de arte nova.</li>
+<li><strong>Progressão:</strong> corrija a aceleração e decida quanto do voo longo se joga. Dê aos voos 45 a 80 um verbo novo, como estilingue gravitacional. A primeira grande surpresa deve cair antes das 2 horas do reembolso da Steam.</li>
+<li><strong>Economia:</strong> calibre a simulação e aproxime a Lua do voo 50, mantendo o voo final longo. Na partida completa, 86 de 230 voos não têm compra, quase todos depois da Lua, e isso precisa mudar antes de abrir os planetas. Prefira menos compras e mais comemoradas.</li>
+<li><strong>Diálogos:</strong> transforme o chefe em trama, com advertência, RH e desfecho na Lua. Use rádio da firma e patrocinadores nos trechos longos. Troque as falas mortas por novas e amplie o "Por um triz", que já existe. Revise a fala da Bolha, que cita o pombo que não bate.</li>
+</ul>
+<p><strong>Reversão que só você decide:</strong> reduzir as 360 peças e os 20 níveis de pesquisa. Recolorida parece enrolação, mas a recomendação é manter por enquanto e decidir depois dos testes.</p>
+<p><strong>Ordem:</strong></p>
+<ol>
+<li>Corrigir a aceleração.</li>
+<li>Corrigir os bugs visíveis e aplicar a tabela de proporção.</li>
+<li>Calibrar a economia e criar o verbo novo.</li>
+<li>Escrever os diálogos.</li>
+<li>Testar os 12 fps.</li>
+<li>Você joga com som, depois 3 testadores externos até a Lua.</li>
+<li>Decidir sobre a reversão, o preço e a versão web.</li>
+<li>Confirmar direitos, aprovar a folha de prova e gerar a arte de uma vez.</li>
+</ol>
+<h2>A primeira coisa a fazer</h2>
+<p>Corrigir a contagem dos eventos para ela andar em tempo real, e repetir a medição a 100x. A medição pedida pelo conselho já foi feita: 90 segundos reais, 6 eventos, 93% do tempo em evento, aceleração de 8,2x.</p></section>
+<section><h2>Quem pensou o quê</h2><p>Resumo das posições iniciais, antes da revisão.</p><div class="rola"><table class="grade"><thead><tr><th>Tema</th><th>Contrário</th><th>Primeiros princípios</th><th>Expansionista</th><th>Pessoa de fora</th><th>Executor</th></tr></thead><tbody><tr><th scope="row">Voo longo</th><td>Vê espera</td><td>Encurtar</td><td>Manter e preencher</td><td>Encurtar</td><td>Encurtar</td></tr><tr><th scope="row">Conteúdo</th><td>Cortar</td><td>Cortar</td><td>Somar trama</td><td>Esconder no início</td><td>Cortar</td></tr><tr><th scope="row">Plutão</th><td>Viu erro (falso)</td><td>Só depois da Lua</td><td>DLC grátis</td><td>Não citou</td><td>Congelar</td></tr><tr><th scope="row">Foguete maior na tela</th><td>Sim</td><td>Sim</td><td>Sim</td><td>Sim</td><td>Sim</td></tr><tr><th scope="row">Falas como trunfo</th><td>Humor cansa</td><td>Dar arco</td><td>Virar trama</td><td>Sim</td><td>Ampliar</td></tr></tbody></table></div></section>
+<section><h2>Modelos abertos para a sua máquina</h2>
+<p>Sua máquina: GTX 1660 Super com 6 GB, 31 GB de RAM e 47 GB livres. Nada abaixo foi testado nela ainda. Licenças conferidas nas páginas oficiais, salvo onde indicado.</p>
+<div class="rola"><table><thead><tr><th>Uso</th><th>Proposta</th><th>Licença</th><th>Na sua placa</th><th>Papel</th></tr></thead><tbody>
+<tr><td>Poses, expressões e peças a partir de referência</td><td>FLUX.2 Klein 4B (GGUF)</td><td>Apache 2.0</td><td>Oficial pede 13 GB. Com GGUF, um guia cita 2,6 GB no arquivo e 8 GB de mínimo; 6 GB é o caso a testar</td><td><strong>Primeira escolha:</strong> aceita imagens de referência, o que mais ajuda a manter os personagens iguais</td></tr>
+<tr><td>Imagem do zero, rápida</td><td>Z-Image Turbo (GGUF Q3 ou Q4)</td><td>Apache 2.0</td><td>Arquivos de 3,8 a 5 GB; guias citam 6 GB com apoio da RAM</td><td><strong>Segunda escolha:</strong> peças e objetos novos. A versão de edição ainda consta como não lançada</td></tr>
+<tr><td>Quadros entre duas poses</td><td>Practical-RIFE</td><td>MIT</td><td>Pede Python até 3.11; o seu é 3.14, então vai em ambiente separado</td><td>Só depois das poses. Não cria pose, só preenche o meio</td></tr>
+<tr><td>Recorte do fundo</td><td>BiRefNet</td><td>MIT</td><td>Sem exigência publicada</td><td>Para recortes que a chave de verde hoje suja</td></tr>
+<tr><td>Ampliar peças pequenas</td><td>Real-ESRGAN anime 6B</td><td>BSD-3 (conferir no repositório oficial)</td><td>Modelo pequeno, feito para desenho</td><td>Serrilhado das peças da quinta folha e o dirigível</td></tr>
+<tr><td>Montar boneco articulado</td><td>Inochi Creator</td><td>BSD-2, com versão paga</td><td>Roda sem IA</td><td>Opcional: entra para dar corpo mexível se as poses geradas não bastarem</td></tr>
+</tbody></table></div>
+<p><strong>Só em GPU alugada</strong></p>
+<ul>
+<li><strong>Wan 2.2 TI2V 5B (Apache 2.0):</strong> gera movimento a partir de imagem, mas a página oficial pede 24 GB e o ComfyUI cita 8 GB. Não achei relato em 6 GB.</li>
+<li><strong>ToonCrafter:</strong> interpola entre dois desenhos de cartoon, até 16 quadros em 512x320. O código é Apache 2.0, mas a licença dos pesos não está na página, e ele pede de 10 a 12 GB. Só usar depois de conferir a licença.</li>
+<li><strong>Preço:</strong> RTX 4090 entre US$ 0,34 e 0,89 por hora no RunPod, conforme a fonte e o mês. Serve também para treinar um modelo de estilo, se a referência não bastar.</li>
+</ul>
+<p><strong>Descartados</strong></p>
+<ul>
+<li><strong>NoobAI:</strong> a licença proíbe uso comercial, inclusive das imagens.</li>
+<li><strong>Modelos derivados de Illustrious:</strong> licença disputada; só com leitura caso a caso.</li>
+<li><strong>RMBG-2.0 e 4x_IllustrationJaNai:</strong> não comerciais.</li>
+<li><strong>Qwen-Image:</strong> ótimo em texto, que o jogo não precisa na arte, e pesado demais (cerca de 24 GB).</li>
+<li><strong>Animated Drawings:</strong> feito para figuras humanoides e movimentos de boneco, longe do estilo.</li>
+</ul>
+<p><strong>Três avisos</strong></p>
+<ol>
+<li><strong>Placa:</strong> as GTX 16 têm relatos de imagem preta em meia precisão. A saída é <code>--force-fp32</code>, que gasta mais memória e pode estourar 6 GB. É o primeiro risco a testar. A base dessa informação são blogs e fóruns, não a documentação oficial.</li>
+<li><strong>Direitos:</strong> Apache e MIT liberam o uso do modelo, mas não garantem que a imagem tenha proteção de direito autoral nem que os dados de treino estejam limpos. Usar as folhas antigas como referência carrega a mesma dúvida dos planos grátis. Para quem vende, isso merece uma consulta jurídica.</li>
+<li><strong>Steam:</strong> arte gerada por IA continua sendo declarada, mesmo com modelo aberto, porque o jogador a consome.</li>
+</ol>
+<p><strong>Teste proposto:</strong> instalar o ComfyUI em ambiente próprio, sem mexer no sistema, e gerar a mesma folha de capivara com Klein e Z-Image, ao lado da arte atual. Se a placa não aguentar ou o estilo não bater, o caminho é alugar GPU por uma ou duas horas, e o Higgsfield fica como último recurso.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="https://huggingface.co/black-forest-labs/FLUX.2-klein-4B">FLUX.2 Klein 4B</a></li>
+<li><a href="https://neurocanvas-web.pages.dev/blog/flux-2-klein-comfyui-guide/">Guia do Klein no ComfyUI</a></li>
+<li><a href="https://eastondev.com/blog/en/posts/ai/20260721-comfyui-low-vram-acceleration/">ComfyUI em 6 a 8 GB</a></li>
+<li><a href="https://huggingface.co/Tongyi-MAI/Z-Image-Turbo">Z-Image Turbo</a></li>
+<li><a href="https://huggingface.co/jayn7/Z-Image-Turbo-GGUF">Z-Image Turbo GGUF</a></li>
+<li><a href="https://github.com/Tongyi-MAI/Z-Image">Repositório do Z-Image</a></li>
+<li><a href="https://admin.kinovi.ai/blog/z-image-low-vram-6gb-gpu-setup">Z-Image em 6 GB</a></li>
+<li><a href="https://github.com/hzwer/Practical-RIFE">Practical-RIFE</a></li>
+<li><a href="https://huggingface.co/ZhengPeng7/BiRefNet">BiRefNet</a></li>
+<li><a href="https://huggingface.co/briaai/RMBG-2.0/blob/refs%2Fpr%2F6/README.md">RMBG-2.0</a></li>
+<li><a href="https://openmodeldb.info/models/4x-realesrgan-x4plus-anime-6b">Real-ESRGAN anime 6B</a></li>
+<li><a href="https://huggingface.co/easygoing0114/AI_upscalers">Licenças de ampliadores</a></li>
+<li><a href="https://linuxlinks.com/inochi-creator-create-edit-inochi2d-puppets">Inochi Creator</a></li>
+<li><a href="https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B">Wan 2.2 TI2V 5B</a></li>
+<li><a href="https://www.serverdirect.nl/blog/ai-update-now-released-wan-22-comfyui">Wan 2.2 no ComfyUI, 8 GB</a></li>
+<li><a href="https://github.com/Doubiiu/ToonCrafter">ToonCrafter</a></li>
+<li><a href="https://computeprices.com/providers/runpod/gpus/rtx4090">RunPod: preços de RTX 4090</a></li>
+<li><a href="https://diyai.io/ai-tools/hosting/runpod-pricing/">RunPod: guia de preços</a></li>
+<li><a href="https://huggingface.co/Laxhar/noobai-XL-1.0">NoobAI-XL</a></li>
+<li><a href="https://civitai.com/articles/18619">Discussão da licença Illustrious</a></li>
+<li><a href="https://pinggy.io/blog/best_free_open_source_ai_image_generators_to_self_host/">Comparativo de modelos abertos</a></li>
+<li><a href="https://developers.facebook.com/blog/post/2023/04/13/meta-os-animated-drawings/">Animated Drawings</a></li>
+<li><a href="https://www.runaihome.com/blog/comfyui-black-image-output-fix-2026/">GTX 16 e imagem preta</a></li>
+<li><a href="https://www.pcgamer.com/software/ai/steam-updates-ai-disclosure-form-to-specify-that-its-focused-on-ai-generated-content-that-is-consumed-by-players-not-efficiency-tools-used-behind-the-scenes/">Regras de IA da Steam, janeiro de 2026</a></li>
+</ul></section>
+<section><h2>Respostas completas</h2><details><summary>Contrário</summary><p>Falha fatal: progressão. A velocidade trava em 180 km/s no voo 45. Os últimos 35 voos, quase metade do jogo, só compram tanque para um voo mais longo. Pior: a esse teto, Marte no ponto mais próximo leva 3,5 dias e Plutão mais de um ano. A promessa "até Plutão" é aritmeticamente impossível sem dobra ou salto, e isso precisa ser resolvido antes de qualquer arte.</p>
+<p>Voo. Sem colisão com pássaro, avião e balão, o que pode dar errado em 45 minutos? Se só restar pegar moeda, o voo final é uma espera. O simulador também não prova nada: mede um robô, não o tédio de um humano. Ninguém jogou até o fim, então "10,3 horas" é só um chute.</p>
+<p>Economia. De 6 a 17 compras por voo, mais o "comprar X e lançar", não é decisão, é o jogo clicando sozinho. O foguete final com 7 módulos idênticos mostra que existe uma resposta ótima e que os 360 itens são decoração. Corte drasticamente: 21 pesquisas com 20 níveis, banco e contratos parecem volume, não profundidade.</p>
+<p>Proporção. O protagonista é o foguete, e ele vira um fiozinho na oficina e no voo. Num jogo de montar, isso é erro central. Abandone a escala realista: alargue a pilha e limite o recuo da câmera.</p>
+<p>Estilo. 283 peças são recolorações, e o comprador da Steam percebe na segunda aba. Melhor 40 peças distintas do que 360. Com 1,1 crédito não há arte para mais nada. E vender com direitos comerciais não confirmados pode derrubar o projeto inteiro: confirme isso primeiro.</p>
+<p>Animação. Senos suaves a 60 fps deixam tudo flutuando igual e brigam com o cartoon. Use poses seguradas, em 12 fps, e corrija o capacete e o tatu sem capacete.</p>
+<p>Diálogos. As falas são boas, mas todas têm a mesma piada de firma. São 16 marcos em 45 minutos, com longos silêncios depois de horas de repetição. O humor vai cansar antes da Lua.</p>
+<p>Som. Som nunca ouvido é som inexistente.</p></details><details><summary>Primeiros princípios</summary><p>A pergunta está errada. "O que melhorar" supõe que o jogo já está de pé, e ninguém jogou até o fim nem ouviu o som. O problema real é outro: fazer alguém pagar para sentir "uma capivara com emprego chegou à Lua, ridiculamente". Tudo que não serve a isso é peso.</p>
+<p>Progressão (a raiz). São 10,3 horas para repetir um gesto. A velocidade trava no voo 45, então 35 voos só esperam mais tempo. Um voo de 45 minutos com 16 falas é tela de descanso. Meta: Lua em 25 a 30 voos, 3 a 4 horas, voo máximo de 6 a 8 minutos. A distância real fica no número; o tempo não precisa ser proporcional a ela. Planetas só se a Lua provar que diverte.</p>
+<p>Economia. De 6 a 17 compras por voo, com botão de um clique, não é decisão. O foguete final com 7 módulos iguais prova que existe uma resposta ótima. Corte para 5 ou 6 linhas com troca real e 1 ou 2 compras que mudem o voo seguinte. Banco, contratos e 21 pesquisas saem até alguém sentir falta.</p>
+<p>Proporção. Faltam regras, não ajustes de pixel. O foguete é o protagonista e a recompensa visível: altura fixa na tela, com o mundo diminuindo em volta. Se a compra não aparece, ela não existe. Na oficina, ele precisa encher a tela.</p>
+<p>Estilo. 360 peças com 77 desenhos é inflação; assuma 77 ou menos, cada uma distinta. Antes de gerar mais arte, confirme os direitos comerciais: sem isso, não há produto na Steam.</p>
+<p>Animações. Seno a 60 fps denuncia o código, e é justamente isso que Eduardo rejeita. Com 1,1 de crédito, use poses em 12 fps só para capivara, tatu, paraquedas e fumaça. O resto pode ficar quase parado, como piada seca.</p>
+<p>Diálogos. É o maior diferencial, mas são frases soltas. Dê um arco: o emprego, o chefe, a marmita, com desfecho na Lua. Apague as falas mortas.</p>
+<p>Primeiro passo: três pessoas jogam 30 minutos com som, e você anota onde param.</p></details><details><summary>Expansionista</summary><p>O maior ativo subavaliado é a capivara que devia estar no trabalho. "Ela tem um emprego" é um gancho de loja, e hoje é só uma piada de intro. Vale transformar isso na espinha do jogo.</p>
+<p>Diálogos (maior retorno, e custa zero crédito). Faça do chefe uma trama: mensagens que evoluem, advertência, RH, demissão por abandono de posto em órbita, oferta de promoção ao chegar na Lua. O voo de 45 min vira programa de rádio, com rádio da firma, ouvintes, as 14 marcas falsas patrocinando e o tatu narrando. As falas de colisão mortas viram quase-acidentes e comentários. Isso gera clipe de streamer.</p>
+<p>Progressão. Velocidade travada do voo 45 ao 80 é a maior oportunidade escondida: são 35 voos pedindo um verbo novo, como estilingue gravitacional, carona em cometa ou modo cruzeiro. O salto de 2.481 para 18.798 km (voos 35 a 40) deveria ser um evento encenado, a "virada" do jogo. Steam devolve dinheiro até 2 horas de jogo, então a primeira grande surpresa precisa cair antes disso. A demo termina nela, pronta para a Next Fest.</p>
+<p>Proporção e estilo. O foguete é o troféu, e hoje é um fio. Deixe-o largo, absurdo, uma gambiarra visível: sofá amarrado, máquina de refrigerante como módulo. Oficina e resultado geram um cartão-postal aquarelado compartilhável do foguete de cada jogador, marketing gratuito. Menos peças que mudam a silhueta valem mais que 360 recoloridas.</p>
+<p>Animação. Deadpan combina com pouco quadro. Personagens a 8-12 fps com poses seguradas ficam mais autorais do que seno suave, e isso é só código sobre a arte existente.</p>
+<p>Economia. Troque o holerite genérico: resultado como relatório de despesas à firma, empréstimo do banco como piada recorrente. Compre menos vezes, compras maiores e mais comemoradas.</p>
+<p>Horizonte. Plutão é conteúdo pós-lançamento pronto: DLC gratuita por planeta mantém a página viva. Ângulo extra: capivara viaja bem fora do Brasil, então localize em inglês desde já.</p></details><details><summary>Pessoa de fora</summary><p>Primeira impressão: a capivara com emprego me ganha em dois segundos. A abertura é o melhor momento do jogo. Em seguida a oficina me joga 8 abas, 16 categorias e 7 estatísticas antes do primeiro voo. "Empuxo", "Casco", "Controle", "Pagamento +0%" e "Módulo: 1 vaga" não dizem nada a quem nunca jogou. Mostre só LANÇAR e Motores, e libere o resto voando.</p>
+<p>Proporção: no começo o foguete é um personagem. No fim vira um palito de 40 peças, com a capivara, o cone e os enfeites do tamanho de pixels. O jogo apaga o que me fez comprar. O foguete final precisa de câmera ou recorte que mantenha a cara dela grande. O pássaro e o balão cobrindo o painel de queda também confundem: a capivara de paraquedas fica atrás da régua, no canto, justo quando é a piada.</p>
+<p>Estilo: aquarela com traço grosso é a identidade e funciona. Painéis escuros de HUD e a fonte pixelada dos números parecem de outro jogo.</p>
+<p>Animação: só vi fotos, mas "Caindo!" com "Pular a queda" visível sugere que a própria queda é tediosa. Se eu quero pular, algo falhou.</p>
+<p>Progressão: a régua "Terra a Lua" é ótima. "Bom. Faltam só uns milhares" é a melhor promessa do jogo. Mas 80 voos e 10 horas não aparecem em nenhuma tela, e voos de 45 minutos não cabem na cabeça de quem veio de um voo de 25 segundos. Isso é refund garantido no Steam ou tela parada com autopiloto. Corte para no máximo 5 minutos.</p>
+<p>Economia: "+258.966" e "261.072" na tela, mas 1.841 na oficina e prêmio de 1.000.000: os números perdem peso. "Comprar Lata de leite e lançar · 101" é o melhor botão do jogo, mantenha. Já "+4% → +8%, Salto no nível 5" é planilha.</p>
+<p>Diálogo: é o maior trunfo, e curto. A marmita é perfeita. Mas é só português: confirme o idioma da página do Steam antes de tudo, porque piada não traduz sozinha. O balão fica num canto enquanto olho moedas no centro, ou seja, leio ou jogo. Pause o perigo nas falas boas ou encurte.</p></details><details><summary>Executor</summary><p>Segunda de manhã: Eduardo joga 20 minutos, com som ligado, e anota o que irrita. Ninguém jogou nem ouviu o jogo. Depois, nesta ordem, tudo sem gastar crédito:</p>
+<ol>
+<li>Bugs visíveis (meio dia): capacete desalinhado, personagem sob o HUD, pombos na frente do cesto, tatu sem capacete de obra. Entrega foto antes/depois.</li>
+<li>Proporção (1 dia): tabela única de tamanhos. Dirigível limitado a 420 px, pombo sobe para uns 70. Foguete com largura mínima na tela e oficina com zoom que preencha o painel. É o que Eduardo mais vai notar.</li>
+<li>Economia (1 a 2 dias): colocar metas como asserts em testes/economia.js: Lua perto do voo 50, não 80. Nenhum voo acima de 12 minutos. Velocidade máxima só no fim, não no voo 45. No máximo 4 compras por voo. Sem o salto de 7x entre os voos 35 e 40.</li>
+<li>Corte (meio dia): 360 peças viram só as 77 com desenho próprio. 21 pesquisas x 20 níveis viram 8 x 10. Recolorida parece enrolação, e cortar é mais barato que desenhar. O corte muda a curva, então rodo a simulação de novo depois dele.</li>
+<li>Diálogos (1 dia): apagar as falas mortas de colisão. Escrever 60 falas por distância e fracasso, para cobrir o voo longo. Eduardo aprova numa folha só, é texto de graça.</li>
+<li>Animação (1 dia): trocar 28 frequências por 4 ritmos e rodar criaturas a 12 fps em passos, para parecer desenho. Não dá para inventar batida de asa sem arte nova, então a fatia esticada fica por ora.</li>
+</ol>
+<p>Só depois:</p>
+<ol>
+<li>Arte: confirmar por escrito os direitos comerciais antes de comprar plano. Com a lista fechada, gerar tudo de uma vez: fumaça e chama em sprite, asas em 2 quadros, mais rostos, módulos finais diferentes entre si.</li>
+</ol>
+<p>O que sai primeiro: itens 1 e 2, porque Eduardo aprova olhando. Os itens 3 a 6 são uma versão jogável até a Lua em cerca de uma semana. Essa versão vai para 3 testadores externos. Planetas até Plutão ficam congelados até alguém terminar a Lua.</p></details><h2>Revisões</h2><details><summary>Revisor 1 (foco geral)</summary><p>Mais forte: D. É a única que aceita o voo longo e trabalha dentro dele: rádio da firma, patrocinadores, quase-acidentes no lugar das falas mortas. Também propõe um verbo novo para os 35 voos com velocidade travada e põe a surpresa antes do limite de reembolso. Falta ordem de execução, e o sofá e a máquina de refrigerante pedem arte com só 1,1 crédito. A tem a melhor sequência, mas "nenhum voo acima de 12 minutos" contraria a decisão de Eduardo.</p>
+<p>Ponto cego: B. Avaliou só por fotos e manda cortar o voo para 5 minutos, derrubando uma decisão já tomada. Ignora direitos comerciais, som, custo de arte e prioridade. E, com meta de 6 a 8 minutos, erra do mesmo jeito, e C trata a falta de colisão como defeito, embora seja decisão.</p>
+<p>Todas perderam: a aceleração do tempo. Na ESPEC, acelerar remove obstáculos e paga moedas por taxa fixa. Todas julgam os 45 minutos como tempo bruto. Ninguém definiu o multiplicador, se acelerar compensa mais que pilotar, nem as horas reais com aceleração. Também faltou a declaração de IA na Steam e o porte futuro depois da web, que pode refazer o polimento.</p></details><details><summary>Revisor 2 (foco nos números; rodou a simulação)</summary><p>Mais forte: D. Trabalha dentro da especificação: o voo longo vira rádio e a trava em 180 km/s (confirmada no voo 45) pede um verbo novo. A tem a melhor ordem de execução, mas a meta de 12 minutos falha: a 180 km/s, a Lua leva no mínimo 35,6 minutos.</p>
+<p>Ponto cego: C. Sua "falha fatal" é falsa: a dobra já existe (a.dobra = 2.6 ** (n/2)) e multiplica o teto. Plutão é alcançável. B e E também ignoram a decisão do dono ao pedir voos de 5 a 8 minutos.</p>
+<p>Todas perderam: 45 minutos não é tempo de relógio. O voo final dá 43,5 minutos simulados e 22,5 "reais", porque o robô acelera só metade do voo. A 100x, caem para menos de 1 minuto. Falta decidir quanto desse voo se joga. A simulação está mal calibrada: o comentário diz que moedas valem 30%, o código usa 0,55. Os números variam: o salto citado de 7x deu 4,4x nesta rodada. Houve voo com 1 compra, não mínimo de 6. Sete módulos carga8 não provam resposta ótima: refletem a nota do robô, que não testa outros estilos.</p></details><details><summary>Revisor 3 (foco em arte, animação e proporção)</summary><p>Mais forte: A. É a única que separa o que dá para fazer agora do que exige arte nova: admite que batida de asa não sai sem arte e deixa a fatia esticada por ora. Limitar o dirigível e subir o pombo é viável, pois só muda a escala. Falha: o teto de 12 minutos contraria o voo de 30 a 60.</p>
+<p>Ponto cego: D. Diz que poses a 8-12 fps são "só código sobre a arte existente". Não são: há 7 poses da capivara, 2 do tatu e 1 imagem do pássaro. Código em passos sobre figura única é seno travado, não pose. C e E têm o mesmo erro, e a fumaça de E hoje é desenhada em código (efeitos.js), o que o dono rejeita. B, E e C também atacam decisões já tomadas.</p>
+<p>Todas perderam: o briefing manda refazer toda a arte no plano pago, pois a atual saiu de planos grátis. Logo, ajustes finos por sprite podem se perder. A tabela de proporção precisa ser independente do sprite (altura-alvo). Peças têm cerca de 400 px: largas e sem recuo, podem borrar. Falta testar. Também falta a folha de prova: uma folha nova, aprovada por Eduardo, antes do lote.</p></details><details><summary>Revisor 4 (foco em jogador e venda)</summary><p>Mais forte: D. É a única que pensa em comprador e permanência: gancho de loja, clipe de streamer, reembolso em 2 horas, demo para a Next Fest, cartão-postal compartilhável, inglês, DLC gratuita. Sua fraqueza é não falar de preço nem de custo de produção.</p>
+<p>Ponto cego: A. É um bom cronograma interno, mas ignora quem compra, por quanto e por que fica. Só cita testadores externos no fim.</p>
+<p>Todas perderam: preço e público: ninguém propõe preço nem define o comprador. Into Space! e similares nasceram grátis no navegador, então o que justifica pagar? Público idle: o autopiloto de 30 a 60 minutos pode ser atrativo para quem deixa o jogo rodando; faltam modo janela e conquistas. Versão web: uma versão grátis no navegador pode canibalizar ou alimentar as vendas. Arte de IA: a Steam exige declarar conteúdo gerado por IA, e parte do público rejeita isso.</p></details><details><summary>Revisor 5 (foco no minuto a minuto do voo; leu voo.js)</summary><p>Mais forte: D. É a única que dá ao jogador algo para fazer no voo longo sem contrariar o dono: verbo novo nos voos 45 a 80. Ressalva: rádio é passivo, e quase-acidente já existe ("Por um triz", voo.js:494).</p>
+<p>Ponto cego: A. Seis etapas de bugs, tabela e metas, e nenhuma muda o que se faz em um minuto de voo. C também erra ao sugerir que nada ameaça: lixo, satélite e meteoro causam dano.</p>
+<p>Todas perderam: aceleração sem jogo. Com tempo acima de 1x, o spawn para (voo.js:980) e só sobram moedas já na tela. A renda fica passiva (voo.js:960). O voo alterna entre desviar e assistir, sem meio-termo. Provável bug: proxEvento conta em tempo simulado (voo.js:377, 1021), e todo evento volta a 1x por 12 a 15 s reais (voo.js:367). A 100x, o intervalo de 70 a 170 s simulados dura uns 1,2 s reais. Isso dá cerca de 92% do tempo em eventos, aceleração efetiva perto de 9x e os mesmos poucos eventos em repetição. Corrigir isso muda a duração real do voo.</p></details></section>
+<footer>Conselho de 5 conselheiros e 5 revisores, em 02/11/2026. Nenhum arquivo do jogo foi alterado. O número medido vem de um navegador descartável, com foguete de teste, em 90 segundos.</footer>
+</main></body></html>
